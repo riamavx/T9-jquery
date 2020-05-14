@@ -10,3 +10,39 @@
 
 
 */
+
+
+
+
+//"descer" => referencia: andar do elevador
+$(document).ready(function(){
+
+    $(".link1").click(function() {
+        $("html, body").animate({
+            scrollTop: $("#h1").offset().top
+        },
+        3000
+        );
+    });
+
+    $(".link2").click(function() {
+        $("html, body").animate({
+            scrollTop: $("#h2").offset().top
+        },
+        3000
+        );
+    });
+
+    $(".link3").click(function() {
+        $("html, body").animate({
+            scrollTop: $("#h").offset().top
+        },
+        3000
+        );
+    });
+    
+
+})
+
+
+
